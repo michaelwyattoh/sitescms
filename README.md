@@ -1,25 +1,25 @@
-# Sites CMS
+Respond CMS
+===========
 
-This is a project owned by The Sunny Pear. We are creating a web application in PHP that allows users to manage their websites all on one application. This application will allow clients to choose from different clients.
+Respond is an open source, responsive content management system that you can use to build responsive sites. Respond features a REST API, a lightning-fast Angular-powered UI, Bootstrap 3.0, Polymer-based plugins, multilingual support, and an enhanced data layer using PDO. 
 
-# User 
-  Register
-  Delete
-  Multi user 
- # Manage
-  create a site
-drag and drop options blocks
-allow theme changes 
-Web form options
-# Services
-  Add a domain
-  Manage domains
-  Manage set
-# Billing
-  Pay bill with PayPal
-  add another account
-  Suspend account if no payment
-# Email
-  Add 
-  Delete 
-  Access
+Learn more about Respond CMS at: http://respondcms.com
+
+View our documentation at: http://respondcms.com/learn
+
+New in version 5.3:
+- Updated Polymer web components libraries, fixes Microsoft Edge browser issues
+- Added support for Docker
+- Added Brazilian Portuguese translations, updated Spanish translations
+- Added ability to embed custom JS/CSS into site head and footer
+- New theme: Sport
+- Dozens of bug fixes
+- Various minor feature enhancements
+
+Upgrading from version 5.2
+- Pull (or download) the latest version
+- Reload system files on each site
+- Reset theme on each site (if embedded JS/CSS feature is needed)
+
+
+License Information: http://respondcms.com/page/license
