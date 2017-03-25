@@ -32,7 +32,7 @@
 	define('VERSION', '5.3');
 
 	// Brand name
-	define('BRAND', 'Respond');
+	define('BRAND', 'Sites');
 
 	// Location of custom css for your brand (e.g. css/custom.css)
 	define('BRAND_CSS', '');
@@ -42,8 +42,8 @@
 	define('BRAND_ICON', 'images/respond-icon.png');
 
 	// Copyright and default email
-	define('COPY', 'Made by Matthew Smith in Manchester, MO');
-	define('EMAIL', 'sample@adminemail.com');
+	define('COPY', 'Made by The Sunny Pear');
+	define('EMAIL', 'info@thesunnypear.com');
 
 
 	/************************************/
@@ -54,13 +54,13 @@
 	define('UPDATE_LINK', 'https://github.com/madoublet/respond/blob/master/README.md');
 
 	// System message (shown at login if not blank)
-	define('SYSTEM_MESSAGE', '');
+	define('SYSTEM_MESSAGE', 'This system is not currently active!');
 
 	// A link to direct trial accounts where to subscribe
-	define('SUBSCRIBE_LINK', '');
+	define('SUBSCRIBE_LINK', 'http://thesunnypear.com/subscribe');
 
 	// Information on upgrading site to latest version
-	define('TRIAL_MESSAGE', 'Thank you for trying Respond. Click to subscribe!');
+	define('TRIAL_MESSAGE', 'Thank you for trying Sites. Click to subscribe!');
 
 
 	/************************************/
@@ -72,8 +72,8 @@
 	define('SITES_URL', APP_URL.'/sites');
 	define('SITE_URL', APP_URL.'/sites/{{friendlyId}}');
 	define('LOGIN_URL', APP_URL.'/#/login/{{friendlyId}}');
-	define('TERMS_URL', 'http://myrespond.com/page/terms-of-service');
-	define('PRICING_URL', 'http://myrespond.com/page/terms-of-service');
+	define('TERMS_URL', 'http://thesunnypear.com/terms-of-service');
+	define('PRICING_URL', 'http://thesunnypear.com/terms-of-service');
 
 	// Webhooks URL
 	define('WEBHOOKS_URL', '');
@@ -112,7 +112,7 @@
 	/************************************/
 
 	// Default account status (Trial for subscription based sites, or Active for non-subscription based sites)
-	define('DEFAULT_STATUS', 'Active');
+	define('DEFAULT_STATUS', 'Trial');
 
 	// Default plan (Typically Trial or blank for non-subscription based sites)
 	define('DEFAULT_PLAN', '');
@@ -121,7 +121,7 @@
 	define('DEFAULT_USER_LIMIT', 5);
 
 	// default file limit (in MBs)
-	define('DEFAULT_FILE_LIMIT', 250);
+	define('DEFAULT_FILE_LIMIT', 500);
 
 	/************************************/
 	/*  ADVANCED SETUP - CORS           */
@@ -154,7 +154,7 @@
 
 	// Welcome email
 	define('SEND_WELCOME_EMAIL', true);
-	define('WELCOME_EMAIL_SUBJECT', 'Respond: Welcome to Respond!');
+	define('WELCOME_EMAIL_SUBJECT', 'Respond: Welcome to The Sunny Pear | Sites!');
 	define('WELCOME_EMAIL_FILE', '../emails/new-user.html');
 
 	// Site emails
